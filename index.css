@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
+
+.nav-item a{
+    color: white;
+}
+
+.carousel img{
+    height: 70vh !important;
+    opacity: 0.9;
+}
+.carousel-caption h2{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+
+}
+
+.homefooter{
+    display: flex;
+}
+.homefooter{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.homefooter h2{
+    font-family: 'EB Garamond', serif;
+}
+
+.center{
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    border: 0.5px rgb(185, 175, 175) solid;
+    color: rgb(109, 18, 18);
+}
+
+.contact-form{
+    margin: 50px 40px;
+}
+
+.btn:hover{
+    color: green;
+    background-color: white;
+}
+
+#contact-footer{
+    margin-top: 5rem;
+}
+
+#about-text h1{
+    font-size: 71px;
+    font-weight: bolder;
+    margin: 80px 0px 5px 50px;
+
+}
+
+.about-data{
+    display: flex;
+}
+
+.me{
+    height: 50%;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(99, 87, 87);
+
+
+}
+
+
+#about-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    height: 40px;
+    width: 100vw;
+    background-color: rgb(95, 91, 91);
+}
+
+#my-image{
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+#my-image h3{
+    margin-top: -75px;
+    margin-left: 165px;
+    color: #0e0f0f;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.about-main{
+    display: flex;
+    flex-direction: column;
+}
+
+#project-main{
+    display: flex;
+    flex-direction: column;
+    height: 92.5vh;
+    width: 100vw;
+    background-color: rgb(219, 213, 213);
+    font-family: 'EB Garamond', serif;
+    align-items: center;
+    justify-content: center;
+}
